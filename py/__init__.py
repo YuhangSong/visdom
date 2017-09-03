@@ -203,7 +203,7 @@ class Visdom(object):
 
     def __init__(
         self,
-        server='http://localhost',
+        server='127.0.0.1',
         endpoint='events',
         port=8097,
         ipv6=True,
